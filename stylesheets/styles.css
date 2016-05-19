@@ -22,6 +22,9 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
+.imgContainer{
+    display:inline-block;
+}
 
 /* Base text styles */
 
@@ -147,7 +150,7 @@ img {
   margin: 0 auto;
   max-width: 650px;
   padding: 5px;
-  margin: 10px 0 32px 0;
+  margin: 5px 0 5px 0;
   border: 1px solid #ccc;
 }
 
