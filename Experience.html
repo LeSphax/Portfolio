@@ -5,112 +5,144 @@
 	<meta http-equiv="X-UA-Compatible" content="chrome=1">
 	<title>Sébastien Kerbrat</title>
 
-	
-	<script src="javascripts/scale.fix.js"></script>
+
+
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<!-- Latest compiled and minified CSS -->
+	<!-- Latest compiled and minified CSS 
 	<link rel="stylesheet" href="stylesheets/styles.css">
-	<link rel="stylesheet" href="stylesheets/github-light.css">
+	<link rel="stylesheet" href="stylesheets/github-light.css">-->
+	<!-- CSS -->
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+
+	<!-- Personnalisée(s) -->
+	<link href="css/custom.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    <!-- Font -->
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+
 </head>
 <body>
-	<div class="wrapper">
-		<header>
-			<h1 class="header">Sébastien Kerbrat</h1>
-			<p>sbkerbrat@gmail.com</p>
+	<header>
+
+		<nav class="navbar navbar-custom navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="glyphicon glyphicon-menu-hamburger"></span>
+					</button>
+					<a class="navbar-brand" href="#">
+						<row>
+							<span class="light">Sébastien</span> Kerbrat
+						</row>
+
+					</a>
+					<a class="navbar-email" href="#">
+						<row>
+							<p class="email">sbkerbrat@gmail.com</p>
+						</row>
+					</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="index.html">Home</a></li>
+						<li class="active"><a href="Experience.html">Experience</a></li>
+						<li><a href="Personal projects.html">Personal projects</a></li>
+						<li><a href="School projects.html">School projects</a></li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</nav>
+
+	</header>
+	<div class="row">
+		<div class="col-md-3"></div>
+		<section class="mainContent col-md-6">
+			<h3>
+				UX Design Intern at <a href="https://citymeo.fr/">CityMeo</a>
+			</h3>
+			<br>
+			<p>
+				<strong>Dates</strong> : March 2016 - September 2016 (in progress)<br>
+				<strong>Title</strong> : Analysing and improving the usability of a web application
+			</p>
+			<p>
+				<strong>Technologies</strong> : HTML, Javascript, CSS, Python<br>
+				<strong>Librairies</strong> : Django Framework, JQuery<br>
+				<strong>UX Design</strong> : Balsamiq, Draw.io, GIMP, Google Docs <br>
+				<strong>Software</strong> :  VirtualBox, Debian
+			</p>
+			<p>
+				CityMeo is a french startup which allows companies or people with to create, manage and broadcast medias on screens using a web application. It is used, for example, by networks to broadcast advertisement on screens, companies to pass internal messages on screens.
+			</p>
+			<p>
+				The goal of my internship is to improve the usability of the web application and to make sure it can support scaling up as CityMeo keeps growing. For this I have been conducting interviews with existing users of the platform and I started to create some wireframes of a future design. 
+			</p>
+			<p>
+				I have also been working on the existing web application, reporting usability problems and wireframing new functionnalities asked by clients. 
+				Furthermore, I am fixing some usability problems and adding small functionalities to the application. To do this I am learning how to use the Django framework and getting familiar with the existing source code 
+			</p>
+
+			<h3>
+				Software Development Intern at the IRIT, <a href="https://www.irit.fr/recherches/ICS/">ICS Team</a>.
+			</h3>
+			<br>
+			<p>
+				<strong>Dates</strong> : May 2015 - August 2015<br>
+				<strong>Title</strong> : Development of a tablet application platform in an environment of helicopter cockpits<br>
+			</p>
+			<p>
+				<strong>Technologies</strong> : Java, Object-Oriented Petri Nets, C<br>
+				<strong>Librairies</strong> : JavaFX, Java sockets, X-Plane SDK<br>
+			</p>
+
+			This internship taught me a lot about working as part of a professional team :
 			<ul>
-				<li role="presentation"><a href="index.html" style="color: black">Home</a></li>
-				<li role="presentation"><a href="Experience.html" >Experience</a></li>
-				<li role="presentation"><a href="Personal projects.html" style="color: black">Personal projects</a></li>
-				<li role="presentation"><a href="School projects.html" style="color: black">School projects</a></li>
+				<li>Chosing what to work on based on my different assignments</li>
+				<li>Presenting my work clearly and efficiently, making sure it can be reused</li>
+				<li>Using collaborative software like Maven and Mercurial</li>
 			</ul>
 
-		</header>
+			<p>
+				This project was about introducing new interactions techniques like touch and haptic feedback in helicopters cockpits. The project was a partnership between Airbus Helicopters, Bertin Technologies and team ICS of the IRIT laboratory.<br>
 
+				To confirm the solutions they would find were adapted, the team chose to conduct user tests with pilots.<br>
+				For the tests they chose to simulate an helicopter cockpit 
+			</p>
+			<div class="imgContainer">
+				<img src="images/Simulation.png" width="400" height="250">
+				<div style="text-align: center; font-style: italic">Architecture of the whole system</div>
+			</div>
+			<br>
+			<br>
+			<p>
+				Working with another intern, I created a software platform managing communications between the flight simulator and the tablets. The goal of this platform was to allow the developpers of the team to easily prototype and test the solutions they found.
+			</p>
 
-		<div>
-			<h1 style="margin-left: 430px">Experience</h1>
-
-			<section>
-				<h3>
-					UX Design Intern at <a href="https://citymeo.fr/">CityMeo</a>
-				</h3>
-				<br>
-				<p>
-					<strong>Dates</strong> : March 2016 - September 2016 (in progress)<br>
-					<strong>Title</strong> : Analysing and improving the usability of a web application
-				</p>
-				<p>
-					<strong>Technologies</strong> : HTML, Javascript, CSS, Python<br>
-					<strong>Librairies</strong> : Django Framework, JQuery<br>
-					<strong>UX Design</strong> : Balsamiq, Draw.io, GIMP, Google Docs <br>
-					<strong>Software</strong> :  VirtualBox, Debian
-				</p>
-				<p>
-					CityMeo is a french startup which allows companies or people with to create, manage and broadcast medias on screens using a web application. It is used, for example, by networks to broadcast advertisement on screens, companies to pass internal messages on screens.
-				</p>
-				<p>
-					The goal of my internship is to improve the usability of the web application and to make sure it can support scaling up as CityMeo keeps growing. For this I have been conducting interviews with existing users of the platform and I started to create some wireframes of a future design. 
-				</p>
-				<p>
-					I have also been working on the existing web application, reporting usability problems and wireframing new functionnalities asked by clients. 
-					Furthermore, I am fixing some usability problems and adding small functionalities to the application. To do this I am learning how to use the Django framework and getting familiar with the existing source code 
-				</p>
-
-				<h3>
-					Software Development Intern at the IRIT, <a href="https://www.irit.fr/recherches/ICS/">ICS Team</a>.
-				</h3>
-				<br>
-				<p>
-					<strong>Dates</strong> : May 2015 - August 2015<br>
-					<strong>Title</strong> : Development of a tablet application platform in an environment of helicopter cockpits<br>
-				</p>
-				<p>
-					<strong>Technologies</strong> : Java, Object-Oriented Petri Nets, C<br>
-					<strong>Librairies</strong> : JavaFX, Java sockets, X-Plane SDK<br>
-				</p>
-
-				This internship taught me a lot about working as part of a professional team :
-				<ul>
-					<li>Chosing what to work on based on my different assignments</li>
-					<li>Presenting my work clearly and efficiently, making sure it can be reused</li>
-					<li>Using collaborative software like Maven and Mercurial</li>
-				</ul>
-
-				<p>
-					This project was about introducing new interactions techniques like touch and haptic feedback in helicopters cockpits. The project was a partnership between Airbus Helicopters, Bertin Technologies and team ICS of the IRIT laboratory.<br>
-
-					To confirm the solutions they would find were adapted, the team chose to conduct user tests with pilots.<br>
-					For the tests they chose to simulate an helicopter cockpit 
-				</p>
-				<div class="imgContainer">
-					<img src="images/Simulation.png" width="400" height="250">
-					<div style="text-align: center; font-style: italic">Architecture of the whole system</div>
+			<p>
+				Most of the application was modeled and run using petri nets using a tool created by the team.
+				To make sure my work would be reusable, I created diagrams and wrote a user manual : 
+			</p>
+			<div class="image123">
+				<div class="col-md-6">
+					<img src="images/Architecture.png" width="300" height="125">
 				</div>
-				<br>
-				<br>
-				<p>
-					Working with another intern, I created a software platform managing communications between the flight simulator and the tablets. The goal of this platform was to allow the developpers of the team to easily prototype and test the solutions they found.
-				</p>
-
-				<p>
-					Most of the application was modeled and run using petri nets using a tool created by the team.
-					To make sure my work would be reusable, I created diagrams and wrote a user manual : 
-				</p>
-				<div class="image123">
-					<div class="imgContainer">
-						<img src="images/Architecture.png" width="300" height="125">
-					</div>
-					<div class="imgContainer">
-						<img src="images/Documentation.png" width="300" height="180"> 
-					</div>
-					<p style="text-align: center; font-style: italic">Two diagrams showing the architecture of parts of the system</p>
+				<div class="col-md-6">
+					<img src="images/Documentation.png" width="300" height="180"> 
 				</div>
+				<p style="text-align: center; font-style: italic">Two diagrams showing the architecture of parts of the system</p>
+			</div>
 
-			</section>
-		</div>
+		</section>
 	</div>
+	<footer class="footer">
+		
+	</footer>
 </body>
 </html>

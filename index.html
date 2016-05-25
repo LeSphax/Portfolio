@@ -8,31 +8,103 @@
 	
 	<script src="javascripts/scale.fix.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<!-- Latest compiled and minified CSS -->
+	<!-- Latest compiled and minified CSS 
 	<link rel="stylesheet" href="stylesheets/styles.css">
-	<link rel="stylesheet" href="stylesheets/github-light.css">
+	<link rel="stylesheet" href="stylesheets/github-light.css">-->
+	<!-- CSS -->
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+
+	<!-- Personnalisée(s) -->
+	<link href="css/custom.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    <!-- Font -->
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+    <link href="css/general.css" rel="stylesheet">
+
+    <link href="css/home.css" rel="stylesheet">
+    <link href="css/animation.css" rel="stylesheet">
+
+    <!-- Font -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Pathway Gothic One' rel='stylesheet' type='text/css'>
+
+
 </head>
 <body>
-	<div class="wrapper">
-		<header>
-			<h1 class="header">Sébastien Kerbrat</h1>
-			<p>sbkerbrat@gmail.com</p>
-			<ul>
-				<li role="presentation"><a href="index.html">Home</a></li>
-				<li role="presentation"><a href="Experience.html" style="color: black">Experience</a></li>
-				<li role="presentation"><a href="Personal projects.html" style="color: black">Personal projects</a></li>
-				<li role="presentation"><a href="School projects.html" style="color: black">School projects</a></li>
-			</ul>
+	<header>
 
-		</header>
-		
+		<nav class="navbar navbar-custom navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="glyphicon glyphicon-menu-hamburger"></span>
+					</button>
+					<a class="navbar-brand" href="#">
+						<row>
+							<span class="light">Sébastien</span> Kerbrat
+						</row>
 
-		<div>
+					</a>
+					<a class="navbar-email" href="#">
+						<row>
+							<p class="email">sbkerbrat@gmail.com</p>
+						</row>
+					</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="Experience.html">Experience</a></li>
+						<li><a href="Personal projects.html">Personal projects</a></li>
+						<li><a href="School projects.html">School projects</a></li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</nav>
+	</header>
 
-		</div>
-	</div>
+	<div class="row about about-row home-about-bg image-bg" style="margin-top:30px" id="about">
+		<div class="hidden-xs col-sm-6 col-md-6 col-lg-6 vcenter about-image animated hide-it">
+			<div class="about-img-container">
+				<img class="about-img img-circle img-responsive shadowed" src="images/Photo Sebastien.jpg">
+			</div>
+            </div><!--
+        --><div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 vcenter shadowed about-container about-info gradient-white-bg animated hide-it">
+        <img class="hidden-sm hidden-md hidden-lg img-circle shadowed about-img-small" src="images/Photo Sebastien.jpg">
+        <h2>About me</h2>
+        <hr/>
+        <p>
+        	Je suis étudiant en <strong>Interaction Homme 
+        	Machine</strong> en deuxème année de Master. J'ai
+        	choisi cette spécialité parce que les aspects
+        	humains sont au coeur de la formation, et parce 
+        	que j'ai toujours voulu être un acteur des
+        	innovations, pouvant changer notre rapport à la
+        	technologie ou aux autres.
+        </p>
+        <p>
+        	Je suis un passioné de dessin et de graphisme. Ces deux
+        	activités occupent une grande partie de mon
+        	temps libre. J'aime également voyager pour partir à
+        	la découverte du monde qui nous entoure.
+        </p>
+        <a class="btn" href="curriculum-vitae.html">My resume</a>
+    </div>
+</div>
+
+
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+<script src="js/jquery.inview.min.js" type="text/javascript"></script>
+<script src="js/general.js" type="text/javascript"></script>
+<script src="js/home.js" type="text/javascript"></script>
 </html>
