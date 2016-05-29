@@ -28,10 +28,10 @@
 
 .email {
  color: rgb(170,57,57);
+  font-size: 18px;
 }
 
 .navbar-custom .navbar-brand:focus {
-    outline: 0;
 }
 
 .navbar-custom button {
@@ -57,7 +57,6 @@
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
 .navbar-custom .navbar-brand .navbar-toggle:active {
-    outline: 0;
 }
 
 .navbar-custom a {
@@ -65,20 +64,17 @@
 }
 
 .navbar-custom .nav li a:hover {
-    outline: 0;
     background-color: rgb(39,39,39);
     color: rgb(170,57,57);
 }
 
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:active {
-    outline: 0;
     background-color: rgb(170,57,57);
     color: rgb(255,255,255);
 }
 
 .navbar-custom .nav li.active {
-    outline: 0;
 }
 
 .navbar-custom .nav li.active a {
