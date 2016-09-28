@@ -33,6 +33,13 @@
     padding-right: 20px;
 }
 
+.navbar-photo {
+    float:left;
+    margin-left:-200px;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
 .email {
  color: rgb(170,57,57);
   font-size: 18px;
