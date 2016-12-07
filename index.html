@@ -97,7 +97,7 @@
                         </a>
                         <div style="text-align: center;">
                             <h4>SlideBall</h4>
-                            <p class="text-muted">A multiplayer sports prototype inspired by the Starcraft II mod Hover</p>
+                            <p class="text-muted">A multiplayer sports game inspired by the Starcraft II mod Hover</p>
                         </div>
                     </div>
                     <div class="col-sm-4 portfolio-item">
@@ -177,23 +177,23 @@
                     <img src="images/SlideBall.png" style="display: block; margin-left: auto;
                     margin-right: auto;" class="img-responsive">
                     <br>
-                    <p style="text-align: center; font-style: italic">This prototype is multiplayer, you can play it on two tabs to have both players perspective.</p>
+                    <p style="text-align: center; font-style: italic">This prototype is multiplayer, you can play it on two windows (just opening two tabs won't work) to have both client and server perspective.</p>
                     <br>
                     <p><strong>Technologies</strong> : Unity with C#</p>
                     <p><strong>Tools</strong> : GIMP, Blender</p>
 
                     <p>
                         I really liked the mod <a href="https://www.youtube.com/watch?v=Det8nDV2q9c">Hover</a> on Starcraft II and I am trying to create a similar game. <br>
-                        I am learning a lot about networking issues, I especially had problems when trying to synchronize the ball and the player positions.
-                        I am also creating several 3D models and animations on Blender.
+                        For the networking side, I started to use Photon Unity Network but I then switched to WebRTC to get a better latency. This means I had to recreate several functionnalities like RPCs and time synchronisation and I am hosting my own signaling server that handles the rooms creation.
+
+                        I also tried several methods to synchronise the player avatars and the ball accross the network, like client side prediction, extrapolation, or interpolation.
                     </p>
                     <p>
-                        This is the game I am currently working on (September 2016).
+                        This is the game I am currently working on (December 2016).
                     </p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    <a href="https://github.com/LeSphax/HoverLike-Game" target="_blank" class="btn btn-default">See the sources</a>
                     <a href="http://lesphax.github.io/HoverLike-Game" target="_blank" class="btn btn-danger">Play the Game</a>
                 </div>
             </div>
