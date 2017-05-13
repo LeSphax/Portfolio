@@ -204,26 +204,28 @@
     				<img src="images/SlideBall.png" style="display: block; margin-left: auto;
     				margin-right: auto;" class="img-responsive">
     				<br>
-    				<p style="text-align: center; font-style: italic">This prototype is multiplayer, you can play it on two windows (just opening two tabs won't work) to have both client and server perspective.</p>
+    				<p style="text-align: center; font-style: italic">This game is multiplayer, it is better to play with friends but if you are alone you can play it on two windows (just opening two tabs won't work) to have both client and host perspective. If you want to play with me I am also up ready to play a game :)</p>
     				<br>
     				<p><strong>Technologies</strong> : Unity with C#</p>
-    				<p><strong>Tools</strong> : GIMP, Blender</p>
+    				<p><strong>Tools</strong> : GIMP, Blender, Maya, Audacity</p>
 
     				<p>
     					I really liked the mod <a href="https://www.youtube.com/watch?v=Det8nDV2q9c">Hover</a> on Starcraft II and I am trying to create a similar game. <br>
-    					For the networking side, I started to use Photon Unity Network but I then switched to WebRTC to get a better latency. This means I had to recreate several functionnalities like RPCs and time synchronisation and I am hosting my own signaling server that handles the rooms creation.
+    					For the networking side, I started to use Photon Unity Network but I then switched to WebRTC to get a better latency. This means I had to recreate several functionnalities like RPCs and distributing packets to the different entities and I am hosting my own signaling server that handles the rooms creation.
 
     					I also tried several methods to synchronise the player avatars and the ball accross the network, like client side prediction, extrapolation, or interpolation.
+
+
     				</p>
     				<p>
-    					This is the game I am currently working on (December 2016).
+    					This is the game I am currently working on (May 2017). The technical side starts to work reliably well when playing with 8 people so I am starting to experiment more with the gameplay.
     				</p>
     			</div>
     			<div class="modal-footer">
     				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 
     				<a href="https://github.com/LeSphax/SlideBall/tree/samples" target="_blank" class="btn btn-default">See code samples</a>
-    				<a href="http://lesphax.github.io/SlideBall" target="_blank" class="btn btn-danger">Play the Game</a>
+    				<a href="http://slideball.herokuapp.com/" target="_blank" class="btn btn-danger">Play the Game</a>
     			</div>
     		</div>
     	</div>
